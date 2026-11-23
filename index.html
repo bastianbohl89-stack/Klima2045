@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Danmarks klimamål 2045</title>
+<style>
+:root{--green:#176b4b;--deep:#103d31;--mint:#e8f4ed;--sky:#eaf3f8;--ink:#20312b;--muted:#5b6b63;--white:#fff}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);line-height:1.6;background:#f7faf8}
+header{background:linear-gradient(120deg,#103d31,#1b7654);color:white;padding:22px max(6vw,22px) 76px}
+nav{display:flex;justify-content:space-between;align-items:center;gap:20px;flex-wrap:wrap;max-width:1100px;margin:auto}
+.brand{font-weight:800;letter-spacing:.3px;font-size:1.05rem}
+nav a{color:white;text-decoration:none;margin-left:18px;font-size:.95rem}
+.hero{max-width:1100px;margin:65px auto 0}
+.eyebrow{text-transform:uppercase;letter-spacing:2px;font-size:.78rem;color:#c5e8d4;font-weight:bold}
+h1{font-size:clamp(2.5rem,6vw,4.8rem);line-height:1.04;margin:14px 0 20px;max-width:800px}
+.hero p{font-size:1.15rem;max-width:700px;color:#e4f2e9}
+.button{display:inline-block;background:#fff;color:var(--deep);padding:12px 18px;border-radius:9px;text-decoration:none;font-weight:bold;margin-top:14px}
+main{max-width:1100px;margin:-36px auto 0;padding:0 22px 60px}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.stat{background:white;padding:24px;border-radius:15px;box-shadow:0 8px 28px #173c2b12}
+.stat strong{display:block;font-size:2.2rem;color:var(--green);line-height:1.2}
+.stat span{color:var(--muted);font-size:.94rem}
+section{padding:56px 0 8px}
+h2{font-size:2rem;line-height:1.2;color:var(--deep);margin:0 0 14px}
+.lead{font-size:1.08rem;color:var(--muted);max-width:820px}
+.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:18px;margin-top:24px}
+.card{background:white;border:1px solid #e5eee8;border-radius:15px;padding:24px}
+.icon{font-size:2rem}
+.card h3{margin:8px 0;color:var(--deep);font-size:1.25rem}
+.tag{display:inline-block;background:var(--mint);color:var(--green);font-size:.8rem;font-weight:bold;padding:4px 9px;border-radius:20px}
+.callout{background:var(--sky);border-left:5px solid #4785a5;padding:20px 22px;border-radius:10px;margin-top:24px}
+.timeline{display:grid;grid-template-columns:repeat(3,1fr);gap:0;margin-top:25px}
+.time{padding:20px;border-top:4px solid #b7d9c5;background:white}
+.time strong{font-size:1.7rem;color:var(--green);display:block}
+.time:not(:last-child){border-right:1px solid #e3ece6}
+ul{padding-left:20px}
+li{margin:8px 0}
+.sources{background:#eef5f0;padding:28px;border-radius:15px;margin-top:30px}
+.sources a{color:var(--green);font-weight:bold}
+footer{text-align:center;padding:28px;color:#6b7971;font-size:.9rem}
+@media(max-width:700px){.stats,.cards,.timeline{grid-template-columns:1fr}.time:not(:last-child){border-right:0}.hero{margin-top:45px}nav a{margin:0 12px 0 0}header{padding-bottom:65px}}
+</style>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="brand">🌱 KLIMA & DANMARK</div>
+    <div><a href="#maal">Klimamålet</a><a href="#energikilder">Grønne energikilder</a><a href="#vejen">Vejen dertil</a></div>
+  </nav>
+  <div class="hero">
+    <div class="eyebrow">Danmarks grønne omstilling</div>
+    <h1>Hvordan bliver Danmark klimaneutralt i 2045?</h1>
+    <p>Danmark har sat et mål om at nå klimaneutralitet fem år tidligere end det oprindelige mål i klimaloven. Men hvad betyder det – og hvilke energikilder skal hjælpe os derhen?</p>
+    <a class="button" href="#maal">Se målene ↓</a>
+  </div>
+</header>
+<main>
+  <div class="stats">
+    <div class="stat"><strong>2045</strong><span>Regeringens mål for klimaneutralitet</span></div>
+    <div class="stat"><strong>70 %</strong><span>Reduktion i drivhusgasudledninger i 2030 sammenlignet med 1990</span></div>
+    <div class="stat"><strong>110 %</strong><span>Regeringens mål for reduktion i 2050 – altså netto-negative udledninger</span></div>
+  </div>
+
+  <section id="maal">
+    <h2>Hvad er Danmarks klimamål for 2045?</h2>
+    <p class="lead">Målet er, at Danmark i 2045 skal være <b>klimaneutralt</b>. Det betyder, at landets samlede udledning af drivhusgasser skal balanceres af den mængde, der bliver fjernet eller optaget. Det handler altså om nettoudledningen – ikke nødvendigvis om, at alle udledninger stopper helt.</p>
+    <div class="callout"><b>Vigtigt at vide:</b> Klimaloven fastsætter et mål om klimaneutralitet senest i 2050. Regeringen har efterfølgende fremrykket ambitionen til 2045 og sat et mål om 110 % reduktion i 2050. 2045-målet er derfor regeringens politiske mål, mens 2050-målet står i klimaloven.</div>
+    <div class="timeline" id="vejen">
+      <div class="time"><strong>2030</strong><b>70 % reduktion</b><br>Drivhusgasudledningerne skal være reduceret med 70 % i forhold til 1990.</div>
+      <div class="time"><strong>2045</strong><b>Klimaneutralitet</b><br>Regeringens mål er, at Danmark samlet set ikke udleder flere drivhusgasser, end der fjernes.</div>
+      <div class="time"><strong>2050</strong><b>110 % reduktion</b><br>Regeringens mål er netto-negative udledninger – at Danmark fjerner mere, end landet udleder.</div>
+    </div>
+  </section>
+
+  <section id="energikilder">
+    <h2>Hvilke grønne energikilder spiller den største rolle?</h2>
+    <p class="lead">Vind og sol er centrale, fordi de kan levere store mængder vedvarende elektricitet. Bioenergi og biogas kan også bidrage, især i energisystemer, hvor det er vanskeligere at bruge strøm direkte.</p>
+    <div class="cards">
+      <article class="card">
+        <div class="icon">🌬️</div><span class="tag">En hovedrolle</span>
+        <h3>Vindenergi</h3>
+        <p>Vindmøller på land og til havs producerer elektricitet uden at afbrænde kul, olie eller gas. Havvind kan udbygges i stor skala og bliver vigtig for Danmarks elproduktion.</p>
+      </article>
+      <article class="card">
+        <div class="icon">☀️</div><span class="tag">En hovedrolle</span>
+        <h3>Solenergi</h3>
+        <p>Solceller omdanner sollys til elektricitet. Store solcelleparker og solceller på tage kan supplere vindenergi – især på solrige dage.</p>
+      </article>
+      <article class="card">
+        <div class="icon">♻️</div><span class="tag">Et supplement</span>
+        <h3>Biogas og bioenergi</h3>
+        <p>Biogas kan fremstilles af blandt andet husdyrgødning og organiske restprodukter. Det kan erstatte fossil gas i dele af energisystemet. Bæredygtighed og adgang til råmaterialer er vigtige hensyn.</p>
+      </article>
+      <article class="card">
+        <div class="icon">🌊</div><span class="tag">Mulighed på længere sigt</span>
+        <h3>Andre grønne løsninger</h3>
+        <p>Geotermi, grøn brint og andre teknologier kan hjælpe med varme, industri og lagring af energi. De spiller forskellige roller og er ikke alle energikilder i sig selv.</p>
+      </article>
+    </div>
+    <div class="callout"><b>Hvorfor især vind og sol?</b> De er allerede store og voksende dele af den danske elproduktion. I 2025 stod vind for omkring 47 % af Danmarks elforbrug, mens vind og sol tilsammen leverede omkring 58 % ifølge IEA Wind TCP.</div>
+  </section>
+
+  <section>
+    <h2>Det kræver mere end grøn strøm</h2>
+    <p class="lead">For at nå 2045-målet skal udledningerne også ned i andre dele af samfundet:</p>
+    <ul>
+      <li><b>Transport:</b> Flere elbiler og mindre brug af fossile brændstoffer.</li>
+      <li><b>Opvarmning:</b> Varmepumper og fjernvarme kan erstatte olie- og gasfyr.</li>
+      <li><b>Industri:</b> Virksomheder skal bruge mindre fossil energi og udvikle løsninger med lavere udledning.</li>
+      <li><b>Landbrug:</b> Udledninger af blandt andet metan og lattergas skal reduceres.</li>
+      <li><b>CO₂-fangst og lagring:</b> Kan hjælpe med de udledninger, der er svære at fjerne helt.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Konklusion</h2>
+    <p class="lead">Danmarks mål er klimaneutralitet i 2045. Vindenergi og solenergi ventes at spille en særlig stor rolle ved at levere grøn elektricitet. Biogas, bioenergi, elektrificering, energieffektivisering og nye teknologier skal supplere dem. Planen kræver derfor både mere vedvarende energi og lavere udledninger fra transport, landbrug, opvarmning og industri.</p>
+    <div class="sources">
+      <h3>Kilder og videre læsning</h3>
+      <ul>
+        <li><a href="https://www.kefm.dk/klima/klimastatus-og-fremskrivning" target="_blank" rel="noopener">Klima-, Energi- og Forsyningsministeriet – Klimastatus og -fremskrivning</a></li>
+        <li><a href="https://www.kefm.dk/klima/klimaprogram-2026" target="_blank" rel="noopener">Klima-, Energi- og Forsyningsministeriet – Klimaprogram 2026</a></li>
+        <li><a href="https://iea-wind.org/annual-report-2025-country-denmark/" target="_blank" rel="noopener">IEA Wind TCP – Annual Report 2025: Denmark</a></li>
+        <li><a href="https://www.eea.europa.eu/en/europe-environment-2025/countries/denmark/renewable-energy-sources" target="_blank" rel="noopener">Det Europæiske Miljøagentur – Renewable energy sources in Denmark</a></li>
+        <li><a href="https://klimaraadet.dk/en/analysis/denmarks-climate-transition-towards-2050" target="_blank" rel="noopener">Klimarådet – Denmark’s Climate Transition Towards 2050</a></li>
+      </ul>
+      <small>Bemærk: 2045 og 110 %-målet beskrives som regeringens mål. Klimamål og fremskrivninger kan blive opdateret.</small>
+    </div>
+  </section>
+</main>
+<footer>Skolevenlig introduktion til Danmarks klimamål · Opdateret med kilder fra 2025–2026</footer>
+</body>
+</html>
